@@ -1,0 +1,51 @@
+body{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 15vh 40vh 30vh 15vh;
+    grid-template-areas:     
+    "ONE ONE ONE ONE ONE ONE ONE ONE ONE TWO"
+    "THREE THREE THREE FOUR FOUR FOUR FIVE FIVE FIVE FIVE"
+    "SIX SIX SIX SIX SIX SEVEN SEVEN SEVEN SEVEN SEVEN"
+    "EIGHT EIGHT EIGHT EIGHT EIGHT EIGHT EIGHT EIGHT EIGHT EIGHT"
+    ;
+}
+
+.ONE{
+    background-color: rgb(0, 0, 255);
+    grid-area: ONE;
+}
+
+.TWO{
+    background-color: yellow ;
+    grid-area: TWO;
+}
+
+.THREE{
+    background-color: hotpink;
+    grid-area: THREE;
+}
+
+.FOUR{
+    background-color: navy;
+    grid-area: FOUR;
+}
+
+.FIVE{
+background-color: green;
+grid-area: FIVE;
+}
+
+.SIX{
+    background-color: mediumslateblue;
+    grid-area: SIX;
+}
+
+.SEVEN{
+    background-color: lawngreen;
+    grid-area: SEVEN;
+}
+
+.EIGHT{
+    background-color: red;
+    grid-area: EIGHT;
+}
